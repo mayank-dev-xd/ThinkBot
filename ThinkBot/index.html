@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkBot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.webp">
+
+  
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-sidebar">
+            <h3>Chat History</h3>
+            <ul id="history-list"></ul>
+            <h3>Account</h3>
+            <button id="auth-btn" onclick="showLogin()">Login</button>
+        </div>
+        <div class="chat-main">
+            <div class="chat-header">ThinkBot</div>
+            <div class="chat-box" id="chat-box"></div>
+            <div class="chat-footer">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button class="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
